@@ -1,0 +1,22 @@
+{
+  "name": "messagesBasicAuthAPI",
+  "version": "1.0.0",
+  "description": "Node.js implementation of a RESTful API to support the creation, editing and deletion of users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Mandy Warren",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "express-oauth2-jwt-bearer": "^1.1.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
